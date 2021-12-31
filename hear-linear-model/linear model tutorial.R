@@ -38,10 +38,10 @@ heart.plot <- heart.plot +
 heart.plot <- 
   heart.plot +
     theme_bw() +
-    labs(title = "Taxas de doenças cardíacas (% da população) \n como uma função de pedalar ao trabalho e fumar",
-         x = "Pedalar até o trabalho (% da população)",
-         y = "Doenças cardíacas (% da população)",
-         color = "Fumar \n (% da população)")
+    labs(title = "Taxas de doenÃ§as cardÃ­acas (% da populaÃ§Ã£o) \n como uma funÃ§Ã£o de pedalar ao trabalho e fumar",
+         x = "Pedalar atÃ© o trabalho (% da populaÃ§Ã£o)",
+         y = "DoenÃ§as cardÃ­acas (% da populaÃ§Ã£o)",
+         color = "Fumar \n (% da populaÃ§Ã£o)")
 
 heart.plot + annotate(geom="text", x=30, y=1.75, label=" = 15 + (-0.2*biking) + (0.178*smoking)")
 
